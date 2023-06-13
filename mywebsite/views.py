@@ -75,7 +75,7 @@ def data(requests):
         for i in txt:
             a = a + i.upper()
 
-        dataup = {'purpose': 'UpperCase = ', 'upper': "Up Case : " ,'up_case':a}
+        dataup = {'purpose': 'UpperCase ', 'upper': "Up Case : " ,'up_case':a}
 
         return render(requests,'data.html',dataup)
 
