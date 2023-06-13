@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>templates</title>
+</head>
+<body>
+
+<p> Below the name and the stand values have been added using the template : </p>
+
+<p> <b>{{name}}</b> is from japan and is the user of <b>{{stand}}</b></p>
+
+<br>
+
+<!-- so here we have used the template name and stand
+ so the data that we have in dict data will be displayed here
+ -->
+<br>
+<br>
+<br>
+
+<fieldset>
+
+
+<form action="/fdata" method="get">
+
+    <label> Enter Your First Name</label><br>
+    <input type="text" name="fname" id="fname"> <br>
+<br>
+    <label> Enter Your Last Name</label><br>
+    <input type="text" name="lname" id="lname">
+    <br><br>
+
+
+
+    <button type="submit" value="submit" name="btn" id="btn"> Submit</button>
+
+</form>
+
+
+
+
+</fieldset>
+<br>
+<br>
+<br>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data</title>
+</head>
+<body>
+<p> Your data for text area has been submitted to <b>Data</b> page <br>
+Below you can see the text that you have entered.</p>
+
+<h3>Your analysed Text - {{purpose1}} {{purpose2}} {{purpose3}}</h3>
+<br>
+
+<p>
+
+     {{analysed_text}}
+    <br>
+
+      {{char_count}}
+    <br>
+
+      {{up_case}}
+
+</p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+</body>
+</html>
